@@ -1,5 +1,5 @@
 const CACHE_NAME = 'wordquiz-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json'];
+const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -45,4 +45,4 @@ self.addEventListener('notificationclick', e => {
       return clients.openWindow('/');
     })
   );
-});
+}
