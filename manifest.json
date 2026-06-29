@@ -2,7 +2,8 @@
   "name": "WordQuiz - 영어 단어장",
   "short_name": "WordQuiz",
   "description": "영어 단어를 한국어로 학습하는 앱",
-  "start_url": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#1a1f2e",
   "theme_color": "#4f6ef7",
@@ -18,7 +19,7 @@
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any mask"
     }
   ]
 }
